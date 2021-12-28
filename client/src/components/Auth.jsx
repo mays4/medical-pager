@@ -29,7 +29,7 @@ const Auth = () => {
     const { username, password, phoneNumber, avatarURL } = form;
     console.log("form", form);
 
-    const URL = "/auth";
+    const URL = "https://medical-chat-page.herokuapp.com/auth";
     // const URL = 'https://medical-pager.herokuapp.com/auth';
 
     const {
