@@ -30,7 +30,7 @@ const Auth = () => {
     console.log("form", form);
 
     const URL = "https://medical-chat-page.herokuapp.com/auth";
-    // const URL = 'https://medical-pager.herokuapp.com/auth';
+    // const URL = '/auth';
 
     const {
       data: { token, userId, hashedPassword,fullName },
